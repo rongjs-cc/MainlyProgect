@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MainlyProgect</string>
+    <string name="permission_pass">权限通过</string>
+    <string name="permission_nopass">权限未通过</string>
 </resources>

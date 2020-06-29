@@ -1,6 +1,12 @@
 package com.example.taskmodule.mvp;
 
+import com.example.taskmodule.bean.NewBean;
+
+import java.util.ArrayList;
+
 import javax.inject.Inject;
+
+import io.reactivex.Observable;
 
 /**
  * @author RongJs
@@ -18,8 +24,6 @@ public class TaskPresenter extends TaskContract.TaskPresenter {
 
     @Override
     public void toPresenter() {
-
+        Observable<ArrayList<NewBean>> data = mModel.getData();
     }
-
-
 }

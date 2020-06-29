@@ -46,7 +46,6 @@ dependencies {
     implementation project(path: ':CommonentLib')
     annotationProcessor 'com.alibaba:arouter-compiler:1.2.0'
     implementation 'com.alibaba:arouter-api:1.0.6'
-
     if(isNeedTaskModule.toBoolean()){
         implementation project(path: ':TaskModule')
     }

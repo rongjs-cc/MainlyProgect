@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TaskActivity"
-    android:background="#009688">
+    tools:context=".TaskActivity">
 
     <com.example.commonentlib.ui.StatusBarView
         android:layout_width="match_parent"
@@ -15,14 +14,11 @@
 
     </com.example.commonentlib.ui.StatusBarView>
 
-    <TextView
-        android:id="@+id/tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="我要注入"
-        android:textSize="20dp"
-        android:textColor="#ffffff"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
